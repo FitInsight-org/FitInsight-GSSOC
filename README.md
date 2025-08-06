@@ -4,16 +4,12 @@ FitInsight is a smart fitness and health risk prediction web application that le
 
 ---
 
-## 🔥 Current Features
+## Current Features
 
 | Feature                                | Status     | Description                                                                 |
 |----------------------------------------|------------|-----------------------------------------------------------------------------|
 | Heart Disease Risk Prediction          | ✅ Done     | Predicts the risk percentage using user health metrics.                     |
 | Obesity Risk Prediction                | ✅ Done     | Analyzes BMI and other inputs to predict obesity likelihood.                |
-| Diabetes Risk Prediction               | ✅ Done     | Determines diabetes risk from key medical inputs.                           |
-| Personalized Workout Recommendation    | ✅ Done     | Suggests fitness routines based on the predicted risk.                      |
-| Personalized Diet Plan Suggestion      | ✅ Done     | Recommends a daily diet tailored to health needs.                           |
-| Health Reminder System                 | ✅ Done     | Sends personalized health tips and reminders.                               |
 | One-Page React Frontend                | ✅ Done     | SPA with Home, About, and Recommendation sections.                          |
 
 ---
@@ -27,6 +23,9 @@ FitInsight is a smart fitness and health risk prediction web application that le
 | User Progress Tracker                  | 🛠 Planned | Let users track improvements via charts.                                    |
 | Dark Mode Toggle                       | 🛠 Planned | Option for light/dark UI modes.                                             |
 | Multi-language Support                 | 🛠 Planned | Support for Hindi and other regional languages.                             |
+| Personalized Workout Recommendation    | 🛠 Planned | Suggests fitness routines based on the predicted risk.                      |
+| Personalized Diet Plan Suggestion      | 🛠 Planned | Recommends a daily diet tailored to health needs and predicted risk.                           |
+| Health Reminder System                 | 🛠 Planned | Sends personalized health tips and reminders.
 
 ---
 
