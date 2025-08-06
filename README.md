@@ -1,38 +1,53 @@
-<<<<<<< HEAD
-#  🏃 FitInsight
+# 🏋️‍♀️ FitInsight – Your Personal Health Predictor
 
-FitInsight is a smart fitness and health web app that predicts your risk for obesity and heart disease based on basic health information you provide. Along with predictions, it gives you personalized suggestions like diet tips, workout plans, and general health advice.
+![FitInsight Logo](https://your-logo-link-if-any.com)
 
-This project was built to explore how machine learning can be used for preventive health awareness.
-
----
-
-##  Features
-
-- Enter your health data (like age, weight, blood pressure, etc.)
-- Get prediction for risk of obesity and heart disease
-- Simple and clean interface 
+**FitInsight** is a smart fitness and health prediction web application that empowers users to assess their health risks and receive personalized lifestyle recommendations. It currently supports **Heart Disease** and **Obesity** prediction — and we're expanding it!
 
 ---
 
-##  Tech Stack
+## 🚀 Built With
 
-- React for the frontend
-- Flask (Python) for the backend
-- scikit-learn for ML-based prediction
-
----
-
-##  How It Works
-
-1. You fill out a basic form with your health details.
-2. The data is processed by a trained ML model.
-3. The backend sends back risk predictions.
-4. Based on your profile, you also get suggestions .
+- **Frontend**: React.js
+- **Backend**: Flask
+- **ML Models**: Trained from scratch using Python
+- **Design**: Responsive and Minimal UI
 
 ---
 
-=======
-# FitInsight-GSoC.
-A smart fitness and health web app that predicts risks for obesity, heart disease, and diabetes while giving personalized workout and diet suggestions.
->>>>>>> 26a53296b2e33f53c3e84cc2b091690a7bf616e2
+## ✨ Current Features
+
+✅ Heart Disease Risk Prediction  
+✅ Obesity Risk Prediction  
+✅ Clean UI with user-friendly inputs  
+✅ One-page smooth navigation  
+
+---
+
+## 🧠 Features for Contributors
+
+We're participating in **GirlScript Summer of Code (GSSoC)** 🎉  
+If you're a contributor, here are features you can help build!
+
+🩺 Add Diabetes Risk Prediction  
+🌗 Implement Dark Mode / Light Mode Toggle  
+🥗 Personalized Recommendation Engine:  
+- Dynamic diet & meal plans based on predicted health conditions  
+📱 Make the App Fully Mobile Responsive  
+📊 Dashboard to show a summary of risk levels  
+🧪 Unit Testing for ML Models  
+📈 Improve Model Accuracy  
+💅 UI & UX Enhancements  
+🧠 Use local storage to retain previous predictions (optional)  
+
+We welcome **Beginner-Friendly** contributions. Just check out our [Issues](https://github.com/FitInsight-org/FitInsight-GSSOC/issues) tab!
+
+---
+
+## 💻 Getting Started
+
+### 1. Fork this repository  
+### 2. Clone it locally:
+```bash
+git clone https://github.com/your-username/FitInsight-GSSOC.git
+
