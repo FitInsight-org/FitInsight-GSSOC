@@ -76,7 +76,7 @@ You can help with:
 - Improving UI/UX
 - Documentation (README, tutorials)
 
-Check the [Issues](../../issues) tab for open tasks. You can also create your own if you spot something missing.
+Check the [Issues](https://github.com/FitInsight-org/FitInsight-GSSOC/issues) tab for open tasks. You can also create your own if you spot something missing.
 
 ---
 
