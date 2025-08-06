@@ -1,6 +1,6 @@
 # 🏋️‍♀️ FitInsight – Your Personal Health Predictor
 
-![FitInsight Logo](https://your-logo-link-if-any.com)
+
 
 **FitInsight** is a smart fitness and health prediction web application that empowers users to assess their health risks and receive personalized lifestyle recommendations. It currently supports **Heart Disease** and **Obesity** prediction — and we're expanding it!
 
