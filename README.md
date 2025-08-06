@@ -1,53 +1,151 @@
-# 🏋️‍♀️ FitInsight – Your Personal Health Predictor
+# FitInsight 💪 – Smart Health & Fitness Predictor
 
-
-
-**FitInsight** is a smart fitness and health prediction web application that empowers users to assess their health risks and receive personalized lifestyle recommendations. It currently supports **Heart Disease** and **Obesity** prediction — and we're expanding it!
+FitInsight is a smart fitness and health risk prediction web application that leverages machine learning to analyze user health inputs and generate personalized suggestions. It predicts risks for **obesity**, **heart disease**, and **diabetes**, and provides personalized **diet plans**, **workout suggestions**, and **health reminders** – all in one place!
 
 ---
 
-## 🚀 Built With
+## 🔥 Current Features
 
-- **Frontend**: React.js
-- **Backend**: Flask
-- **ML Models**: Trained from scratch using Python
-- **Design**: Responsive and Minimal UI
-
----
-
-## ✨ Current Features
-
-✅ Heart Disease Risk Prediction  
-✅ Obesity Risk Prediction  
-✅ Clean UI with user-friendly inputs  
-✅ One-page smooth navigation  
+| Feature                                | Status     | Description                                                                 |
+|----------------------------------------|------------|-----------------------------------------------------------------------------|
+| Heart Disease Risk Prediction          | ✅ Done     | Predicts the risk percentage using user health metrics.                     |
+| Obesity Risk Prediction                | ✅ Done     | Analyzes BMI and other inputs to predict obesity likelihood.                |
+| Diabetes Risk Prediction               | ✅ Done     | Determines diabetes risk from key medical inputs.                           |
+| Personalized Workout Recommendation    | ✅ Done     | Suggests fitness routines based on the predicted risk.                      |
+| Personalized Diet Plan Suggestion      | ✅ Done     | Recommends a daily diet tailored to health needs.                           |
+| Health Reminder System                 | ✅ Done     | Sends personalized health tips and reminders.                               |
+| One-Page React Frontend                | ✅ Done     | SPA with Home, About, and Recommendation sections.                          |
 
 ---
 
-## 🧠 Features for Contributors
+## 🚀 Upcoming Features (Planned for Contributors)
 
-We're participating in **GirlScript Summer of Code (GSSoC)** 🎉  
-If you're a contributor, here are features you can help build!
-
-🩺 Add Diabetes Risk Prediction  
-🌗 Implement Dark Mode / Light Mode Toggle  
-🥗 Personalized Recommendation Engine:  
-- Dynamic diet & meal plans based on predicted health conditions  
-📱 Make the App Fully Mobile Responsive  
-📊 Dashboard to show a summary of risk levels  
-🧪 Unit Testing for ML Models  
-📈 Improve Model Accuracy  
-💅 UI & UX Enhancements  
-🧠 Use local storage to retain previous predictions (optional)  
-
-We welcome **Beginner-Friendly** contributions. Just check out our [Issues](https://github.com/FitInsight-org/FitInsight-GSSOC/issues) tab!
+| Feature                                | Status     | Description                                                                 |
+|----------------------------------------|------------|-----------------------------------------------------------------------------|
+| Export Report as PDF                   | 🛠 Planned | Download a health report with prediction and tips.                          |
+| Email Reminders                        | 🛠 Planned | Send health alerts to user's email.                                         |
+| User Progress Tracker                  | 🛠 Planned | Let users track improvements via charts.                                    |
+| Dark Mode Toggle                       | 🛠 Planned | Option for light/dark UI modes.                                             |
+| Multi-language Support                 | 🛠 Planned | Support for Hindi and other regional languages.                             |
 
 ---
 
-## 💻 Getting Started
+## 💻 Tech Stack Used
 
-### 1. Fork this repository  
-### 2. Clone it locally:
-```bash
-git clone https://github.com/your-username/FitInsight-GSSOC.git
+| Layer        | Technology Used                        |
+|--------------|----------------------------------------|
+| Frontend     | React.js, HTML5, CSS3                  |
+| Backend      | Flask (Python), REST API               |
+| ML Models    | Scikit-learn, Pandas, NumPy            |
+| Deployment   | Replit / GitHub Pages / Render         |
+| Tools        | Git, GitHub, Postman (API Testing)     |
+
+---
+
+## 📁 Folder Structure
+
+```
+FitInsight/
+│
+├── backend/
+│   ├── app.py
+│   ├── models/
+│   │   ├── heart_model.pkl
+│   │   ├── obesity_model.pkl
+│   │   └── diabetes_model.pkl
+│   ├── recommendations/
+│   │   ├── diet.py
+│   │   └── workout.py
+│   └── utils/
+│       └── preprocessor.py
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── App.js
+│   │   └── index.js
+│   └── package.json
+│
+├── README.md
+└── requirements.txt
+```
+
+---
+
+## 🧑‍💻 Getting Started (Local Development)
+
+### Prerequisites
+
+- Node.js and npm
+- Python 3.x and pip
+- Git installed
+
+### Steps to Run Locally
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/your-username/FitInsight.git
+   cd FitInsight
+   ```
+
+2. **Setup backend**  
+   ```bash
+   cd backend
+   pip install -r requirements.txt
+   python app.py
+   ```
+
+3. **Setup frontend**  
+   ```bash
+   cd frontend
+   npm install
+   npm start
+   ```
+
+4. **Access the App**  
+   Go to `http://localhost:3000` in your browser.
+
+---
+
+## 🤝 How to Contribute
+
+We welcome contributions of all kinds! Here's how you can help:
+
+- 🐛 Report bugs  
+- 🌟 Suggest new features  
+- 🧪 Improve the ML models  
+- 🧹 Refactor frontend or backend  
+- 🌐 Add multi-language support
+
+---
+
+## 📝 Contribution Guidelines
+
+- Fork the repository and clone it locally.
+- Create a new branch for your feature or fix:
+  ```bash
+  git checkout -b feature/your-feature-name
+  ```
+- Commit your changes with clear messages.
+- Push to your fork:
+  ```bash
+  git push origin feature/your-feature-name
+  ```
+- Open a Pull Request with a clear description.
+
+> Please follow consistent code style and comment your code for clarity.
+
+---
+
+## 📬 Contact
+
+For any queries, suggestions, or collaboration ideas:  
+📧 Email: [riyagoyal1103@gmail.com]  
+
+
+---
+
+⭐ Star this repo if you found it helpful!
 
